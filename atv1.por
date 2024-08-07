@@ -16,10 +16,7 @@ programa {
     leia(horas_trabalhadas_mes)
 
     escreva("Informe o seu salario por hora: ")
-    leia(salario_total)
-
-    // Calcular o valor da hora 
-    salario_por_hora = salario_total / horas_trabalhadas_mes
+    leia(salario_por_hora)
 
     // Calcular o valor da hora extra
     valor_hora_extra = salario_por_hora * 1.5
