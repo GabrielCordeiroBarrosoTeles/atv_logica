@@ -10,7 +10,7 @@ programa {
     real custo_total,custo_fabrica,percen_distribuidora,imposto
     escreva("Informe custo de fabrica: ")
     leia(custo_fabrica)
-    custo_total = ((custo_fabrica*1.28)+(custo_fabrica*1.45)-custo_fabrica)
+    custo_total = (custo_fabrica*1.28)+(custo_fabrica*.45)
     escreva("O custo de fabrica do carro é: ",custo_total)
   }
 }
